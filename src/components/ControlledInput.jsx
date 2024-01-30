@@ -1,5 +1,7 @@
 import React, { useRef, useState, useEffect } from 'react'
 
+// TODO: styles in a separate file, no underlining, indicate when password is wrong, smaller fontsize
+
 export const ControlledInput = (props) => {
   const { value, onChange, handleLogin, ...rest } = props
   const [cursor, setCursor] = useState(null)
