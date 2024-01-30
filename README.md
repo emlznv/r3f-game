@@ -1,6 +1,6 @@
-# my-multiplayer-game
+# r3f-game
 
 ```
-yarn
-yarn start
+npm
+npm start
 ```
