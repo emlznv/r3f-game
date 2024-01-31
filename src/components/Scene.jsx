@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import useSpline from '@splinetool/r3f-spline'
-import { CameraAndLighting } from './CameraAndLighting'
 import { Laptop } from './Laptop'
 import { CaseFile } from './CaseFile'
 import { useFigletFromText } from '../hooks/useFigletFromText'
@@ -31,7 +30,6 @@ export const Scene = () => {
             scale={[1.29, 1, 1]}
           />
           <Laptop isLoggedIn={isLoggedIn} handleLogin={handleLogin} generatedLogo={generatedFiglet} />
-          <CameraAndLighting />
         </scene>
       </group>
     </>

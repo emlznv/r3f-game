@@ -3,6 +3,7 @@ import { Canvas } from '@react-three/fiber'
 import { OrbitControls } from '@react-three/drei'
 import { Scene } from './components/Scene'
 import { Letter } from './components/Letter'
+import { CameraAndLighting } from './components/CameraAndLighting'
 import './App.css'
 
 export const App = () => {
@@ -12,8 +13,7 @@ export const App = () => {
   return (
     <Canvas shadows flat linear>
       <color attach="background" args={['#5e6063']} />
-      <ambientLight intensity={0.5} />
-      <pointLight position={[10, 10, 10]} />
+      <CameraAndLighting />
       <OrbitControls />
       {startedGame
         ? <Scene />

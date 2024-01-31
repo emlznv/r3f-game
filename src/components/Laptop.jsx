@@ -9,7 +9,7 @@ import { LaptopSticker } from "./LaptopSticker"
 
 export const Laptop = ({ isLoggedIn, handleLogin, generatedLogo }) => {
   const { nodes, materials } = useSpline('https://prod.spline.design/p-6Her3hHAitHm8E/scene.splinecode')
-  
+
   return (
     <group name="Computer">
       {!isLoggedIn && <PasswordInput handleLogin={handleLogin} />}
