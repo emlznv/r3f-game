@@ -1,11 +1,11 @@
 import React from "react"
 import useSpline from '@splinetool/r3f-spline'
 import { Html } from '@react-three/drei'
-import { LaptopLogo } from './LaptopLogo'
-import { CommandsSimulation } from './CommandsSimulation'
-import { PasswordInput } from './PasswordInput'
-import { UsbDrive } from "./UsbDrive"
-import { LaptopSticker } from "./LaptopSticker"
+import { LaptopLogo } from '../LaptopLogo/LaptopLogo'
+import { CommandsSimulation } from '../CommandsSimulation/CommandsSimulation'
+import { PasswordInput } from '../PasswordInput/PasswordInput'
+import { UsbDrive } from "../UsbDrive/UsbDrive"
+import { LaptopSticker } from "../LaptopSticker/LaptopSticker"
 
 export const Laptop = ({ isLoggedIn, handleLogin, generatedLogo }) => {
   const { nodes, materials } = useSpline('https://prod.spline.design/p-6Her3hHAitHm8E/scene.splinecode')

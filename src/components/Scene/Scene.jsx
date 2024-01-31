@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import useSpline from '@splinetool/r3f-spline'
-import { Laptop } from './Laptop'
-import { CaseFile } from './CaseFile'
-import { useFigletFromText } from '../hooks/useFigletFromText'
+import { Laptop } from '../Laptop/Laptop'
+import { CaseFile } from '../CaseFile/CaseFile'
+import { useFigletFromText } from '../../hooks/useFigletFromText'
 
 export const Scene = () => {
   const { nodes, materials } = useSpline('https://prod.spline.design/p-6Her3hHAitHm8E/scene.splinecode')

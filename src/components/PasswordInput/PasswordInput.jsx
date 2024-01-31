@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Html } from '@react-three/drei'
-import { ControlledInput } from './ControlledInput'
+import { ControlledInput } from '../ControlledInput/ControlledInput'
 
 export const PasswordInput = ({ handleLogin }) => {
   const [text, setText] = useState('')

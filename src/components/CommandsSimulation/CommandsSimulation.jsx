@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { ACCESS_COMMANDS, TIME_BETWEEN_COMMANDS } from '../utils/constants'
+import { ACCESS_COMMANDS, TIME_BETWEEN_COMMANDS } from '../../utils/constants'
 
 export const CommandsSimulation = () => {
   const [output, setOutput] = useState('')
